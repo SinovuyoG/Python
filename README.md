@@ -58,3 +58,27 @@ while the "or" operator returns true if at least one operand is true.
 The "not" operator negates the Boolean value it operates on.
 
 Membership operators, "in" and "not in," are used to check whether a value is present in a sequence or not. For instance, using "in" can check if a number or a string exists in a given list or string.
+
+
+CONTROL FLOWS
+
+There are 3 main control flows in programming, nameley If statement, For Loop and While Loop.
+The If statement allows you to execute a block of code only if a certain condition is met.
+In Python, you use the if statement like this:
+a = True
+if a:
+print ("It is true")
+If the condition is true, the indented code under the if statement will be executed. 
+You can add more code under the if statement by indenting it further. 
+If you add an else statement, the code under that will be executed if the condition is false.
+Indentation is very important in Python as it as determines the structure of your program.
+A for loop is used to iterate over a list or any iterable object.
+In Python, you write a for loop like this: 
+for item in my_list: print item
+While loop is similar to a for loop, but it keeps looping until a certain condition is false.
+In Python you use a While loop like this: 
+a = 0
+while a < 5: 
+print a, a = a + 1
+
+It's important to make sure that the condition in the while loop will eventually become false, otherwise, the loop will continue indefinitely
