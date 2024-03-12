@@ -53,6 +53,8 @@ There is also a Tuple data structure,which are similar to Lists, but cannot be c
 Lastly,there is a Dictionary data structure- is a collection of key-value pairs, similar to a word and its definition in a book. Dictionaries are declared using curly braces and accessed using keys.
 
 OPERATORS
+
+
 Operators are instructions that perform operations on variables and values in Python. 
 They are used to manipulate and perform actions on data.
 Arithmethic operators are the most commonly known as they are used for mathematical calculation.
