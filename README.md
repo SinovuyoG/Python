@@ -9,7 +9,7 @@ To access python you can open cmd, then you type Python in the command line then
 To write python programs,you need to download text editors like Jupyter Notebook, Visual studio code, pycharm etc.
 You need to write the file name with the .py extention.
 In programming we also use COMMENTS, which serves as a reminder to some programmers about what a line of code does.
-
+GETTING STARTED WITH PYTHON
 VARIABLES AND TYPES
 
 A variable is a basic unit of a program. Variables stores values. 
@@ -189,5 +189,17 @@ p1.myfunc()
 The self Parameter
 The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
 
-It does not have to be named self , you can call it whatever you like, but it has to be the first parameter of any function in the class:
+It does not have to be named self , you can call it whatever you like, but it has to be the first parameter of any function in the class
+
+BASIC DATA TYPES
+STRINGS:
+
+Python has numerous tools to analyze and construct strings, and one of the most useful is slicing.
+Slicing refers to taking a portion of a string and returning it.
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+There are also multiline strings which can be sourended by 3 quotes. Eg:
+"""Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
 
