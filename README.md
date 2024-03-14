@@ -1,5 +1,5 @@
 # Python-week1
-Introductio To Python:
+*INTRODUCTION TO PYTHON:*
 
 The computer stores its data in a memory and when it needs to retrieve that data it follows a pointer ,which is an address that represents the location of the file you are looking for.
 So when we write and run a computer program, we are actually communicating with the memory. The program generates bits of data called variables.
@@ -160,4 +160,34 @@ To understand the meaning of classes we have to understand the initialization fu
 All classes have a function called __init__(), which is always executed when the class is being initiated.
 
 Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
+Example1:
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("John", 36)
+
+print("My name is", p1.name ,"and I am ", p1.age , " years old")
+
+Objects can also have methods.
+
+Insert a function that prints a greeting, and execute it on the p1 object:
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+p1.myfunc()
+
+The self Parameter
+The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+
+It does not have to be named self , you can call it whatever you like, but it has to be the first parameter of any function in the class:
 
